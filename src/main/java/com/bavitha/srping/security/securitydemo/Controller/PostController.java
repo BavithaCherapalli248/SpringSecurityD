@@ -9,6 +9,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/posts")
+
+// this is post controller
 public class PostController {
 
     private final PostService service;
