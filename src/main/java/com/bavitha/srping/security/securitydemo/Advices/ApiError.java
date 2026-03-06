@@ -11,8 +11,7 @@ import java.util.List;
 @Data
 @Builder
 public class ApiError {
-   // this is api errro code
-    // written by nikhitha
+
     private HttpStatus status;
     private String message;
     private List<String> suberror;
