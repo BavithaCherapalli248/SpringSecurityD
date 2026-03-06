@@ -24,7 +24,7 @@ public class AuthController {
 
     private final UserService userService;
     private final AuthService authService;
-
+// sign up controller
 
    @PostMapping("/signup")
     public ResponseEntity<UserDTO> signUp(@RequestBody SignUpDTO sign){
